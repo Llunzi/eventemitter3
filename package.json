@@ -1,5 +1,5 @@
 {
-  "name": "@jd/eventemitter",
+  "name": "@lgl/eventemitter",
   "version": "1.0.2",
   "description": "",
   "main": "index.ts",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon --exec babel-node index.ts",
     "build": "tsc",
-    "release": "standard-version&&tsc&&git push --follow-tags origin master&& npm publish"
+    "release": "standard-version&&tsc&&git push --follow-tags origin master&& npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,7 @@
     "subscribe",
     "invoke",
     "watch"
-    
+
   ],
   "author": "",
   "license": "ISC",
