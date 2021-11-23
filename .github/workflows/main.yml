@@ -17,6 +17,8 @@ jobs:
      - run: npm ci
      - run: npm i
      - run: npm i -g standard-version
+     - run:  git config --global user.email "879688577@qq.com"
+     - run: git config --global user.name "18612031191"
      - run: standard-version
      - run: npm run build
      - run: git push --follow-tags origin master
