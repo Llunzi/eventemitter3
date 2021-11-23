@@ -7,3 +7,4 @@ All notable changes to this project will be documented in this file. See [standa
 ### [1.0.1](https://coding.jd.com/efficiency/eventemittier/compare/v1.0.0...v1.0.1) (2021-02-06)
 
 ## 1.0.0 (2021-02-06)
+
