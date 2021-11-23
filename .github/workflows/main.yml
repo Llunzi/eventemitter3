@@ -16,8 +16,10 @@ jobs:
          node-version: 14
      - run: npm ci
      - run: npm i
-     - run: npm i -g  standard-version
-     - run: npm run release
+     - run: npm i -g standard-version
+     - run: standard-version
+     - run: npm run build
+     - run: git push --follow-tags origin master
 
  publish-npm:
   needs: build
